@@ -1,6 +1,6 @@
 ## Asyncio Sqlite
 _aiosqlite provides a friendly, async interface to sqlite databases._
-You can see source in [Github](https://github.com/omnilib/aiosqlite)
+You can see source in [Git Hub](https://github.com/omnilib/aiosqlite)
 
 Simple example for use aiosqlite :)
 
