@@ -2,7 +2,7 @@
 _aiosqlite provides a friendly, async interface to sqlite databases._
 You can see source in [Git Hub](https://github.com/omnilib/aiosqlite)
 
-Simple example for use aiosqlite :)
+>Simple example for use aiosqlite :)
 
 Clone repo to your own project 
 
@@ -10,7 +10,6 @@ Clone repo to your own project
 
 Install reqirements 
 
-```pip install -r reqirements.txt ```
-
+```pip install -r requirements.txt ```
 
 # Enjoy !
