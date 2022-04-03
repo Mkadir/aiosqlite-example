@@ -39,7 +39,21 @@ class DataBase:
         """
         self.execute(sql=sql, commit=True)
 
-
+    def add_to_table_users(self, user_id: int, name: str):
+        
+        sql = """
+        INSERT INTO Users(id, name) VALUES(?, ?)
+        """
+        self.execute(
+            sql=sql,
+            parameters=(
+                user_id,
+                name
+            ),
+            commit=True
+        )
+    
+    
 def logger(statement):
     print(
         f"""
